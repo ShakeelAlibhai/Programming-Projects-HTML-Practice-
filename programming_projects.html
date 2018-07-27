@@ -6,18 +6,42 @@
         <style>
             body
             {
-                background-color: moccasin;
+                background-color: darkblue;
+                background: linear-gradient(to right, darkblue, dodgerblue);
                 font-family: sans-serif;
+                color: white;
+                margin-top: 10px;
+                margin-left: 25px;
+                margin-right: 25px;
             }
             .headerText
             {
                 text-align: center;
-                border: 2px solid forestgreen;
+                border: 3px solid forestgreen;
+            }
+            table
+            {
+                border: 2px solid white;
+                width: 100%;
+            }
+            th
+            {
+                background-color: cyan;
+                color: blue;
+                font-variant: small-caps;
             }
             .programName
             {
                 background-color: blue;
                 color: white;
+            }
+            .footer
+            {
+                background-color: cyan;
+                color: blue;
+                text-align: center;
+                padding: 15px;
+                box-shadow: 5px 5px 5px grey;
             }
         </style>
     </head>
@@ -25,30 +49,30 @@
     <body>
         <h1 class="headerText">Programming Projects</h1>
         <h2>Table of Projects</h2>
-        <table style="width:100%">
+        <table>
             <tr>
                 <th>Name</th>
                 <th>Language</th>
             </tr>
             <tr>
-                <th>Project GoldStars X</th>
-                <th>Java</th>
+                <td>Project GoldStars X</td>
+                <td>Java</td>
             </tr>
             <tr>
-                <th>Project Calculator S</th>
-                <th>Java</th>
+                <td>Project Calculator S</td>
+                <td>Java</td>
             </tr>
             <tr>
-                <th>Project Calculator C</th>
-                <th>Java</th>
+                <td>Project Calculator C</td>
+                <td>Java</td>
             </tr>
             <tr>
-                <th>Project Hello7000</th>
-                <th>Java</th>
+                <td>Project Hello7000</td>
+                <td>Java</td>
             </tr>
             <tr>
-                <th>Project CyanSky X</th>
-                <th>C</th>
+                <td>Project CyanSky X</td>
+                <td>C</td>
             </tr>
         </table>
 
@@ -75,8 +99,10 @@
             <li><a href="https://www.linkedin.com/in/shakeelalibhai/">Shakeel's LinkedIn</a></li>
         </ul>
 
-        <hr>
-        <p>Programming Projects (HTML Practice)</p>
-        <p>Version 3</p>
+        <div class="footer">
+            <p>Programming Projects (HTML Practice)</p>
+            <p>Version 4</p>
+        </div>
+        
     </body>
 </html>
